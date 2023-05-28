@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+int x, y;
+ cout << "Imput x";
+ cin >> x;
+ cout << "Imput y";
+ cin >> y;
+ 
+ if (x > 0 && y > 0) {
+ cout << "I quarter";
+ }
+ else if (x < 0 && y>0) {
+ cout << "II quarter";
+      }
+       else if (x < 0 && y < 0) {
+    cout << "III quarter";
+ }
+ else
+ cout << "IV quarter";
+
+}
