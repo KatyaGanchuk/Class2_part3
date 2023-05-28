@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int a;
+    cout << "imput a (1-999" << endl;
+    cin >> a;
+    if (a % 2 == 0)
+        cout << ("even ");
+    else
+        cout << "not even";
+    if (a< 10)
+         cout << "unambiguous";
+		  else
+    {
+    if (a < 100)
+         cout << "two-digit";
+    else
+         cout << "three-digit"; 
+    }
